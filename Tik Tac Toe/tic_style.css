@@ -1,0 +1,71 @@
+
+ *{
+     box-sizing: border-box;
+    }
+body{
+        background:#ecf0f3 ;
+}
+            
+    .container{width: 305px;
+                height: 300px;
+                border-radius: 10px;
+                border: 1px solid rgb(212, 203, 203);
+                margin: 50px auto 0 auto;
+                box-shadow:  10px 10px 15px #cbced1,
+			         -10px -10px 15px #ffffff;
+                }
+    
+span{               width: 40%;
+                    display: block;
+                    text-align: center;
+                    font-family: sans-serif;
+                    color: black;
+                    font-size: 25px;
+                    border-radius: 30px;
+                    background: #ecf0f3 ;
+                    transform: translateX(73%);
+                    border: 1px solid rgb(212, 203, 203);
+                    box-shadow:  10px 10px 15px #cbced1,
+			         -10px -10px 15px #ffffff;
+                    }
+    
+    .container .box{float: left;
+                    width: 99px;
+                    height: 99px;
+
+                    transition: all .25s ease-in-out;
+                    font-family: sans-serif; 
+                    font-size: 85px;
+                    text-align: center;
+                    /* line-height: 100px;  */
+                    cursor: pointer;
+                    /* box-shadow: inset 10px 10px 15px #cbced1,
+                                inset -10px -10px 15px #ffffff; */
+                    }
+    
+    .container .box:hover{box-shadow: 8px 8px 8px #cbced1,
+                                        -8px -8px 8px #ffffff;
+                                        border-radius: 10px;
+                            }
+    
+    button{background: #ecf0f3;
+            color: black;
+            font-weight: bold;
+            border-radius: 30px;
+            width: 30%;
+            height: 20%; 
+            font-size: 20px;
+            margin-top: 5%;
+            transform: translateX(120%);
+            border: 1px solid rgb(212, 203, 203);
+                    box-shadow:  10px 10px 15px #cbced1,
+			         -10px -10px 15px #ffffff;
+        }
+    
+    .win{background: #3dee08; 
+        border-radius: 30px;
+        box-shadow: inset 8px 8px 10px #cbced1,
+        inset -8px -8px 10px #ffffff;
+        color: #ecf0f3;
+     }
+   
